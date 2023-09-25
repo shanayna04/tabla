@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MANUAL HTML</title>
+
+    <style>
+        body {
+            background-color: #d1cbac; 
+        }
+    </style>
+
+
+
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Elemento</th>
+                <th>Descripción</th>
+                <th>Ejemplo</th>
+                <th>Más información</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> &lt; html &gt; </td>
+                <td> The &lt; html &gt; element represents the root (top-level element) of an HTML document, so it is also referred to as
+                     the root element. All other elements must be descendants of this element. </td>
+                <td> 
+                    
+                    &lt;!doctype html&gt; <br>
+                    &lt;html lang="en"&gt; <br>
+                    &lt;head&gt; <br>
+                    &lt;!-- … --&gt; <br>
+                    &lt;/head&gt; <br>
+                    &lt;body&gt; <br>
+                    &lt;!-- … --&gt; <br>
+                    &lt;/body&gt; <br>
+                    &lt;/html&gt; <br>
+                    
+                </td>
+                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html" target="_blank">Más informacion</a></td> 
+            </tr>
+        </tbody>
+
+        <tbody>
+            <tr>
+                <td> &lt; a &gt;: The Anchor element </td>
+                <td> The &lt;a&gt; HTML element (or anchor element), with its href attribute, creates a hyperlink to web pages, files,
+                     email addresses, locations in the same page, or anything else a URL can address. </td>
+                <td> 
+                    &lt;a href="https://www.mozilla.com" &gtMozilla&lt/a &gt
+                </td>
+                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#examples" target="_blank">Más informacion</a></td> 
+            </tr>
+        </tbody>
+
+        <tbody>
+            <tr>
+                <td> &lt; abbr &gt;: The Abbreviation element</td>
+                <td> When including an abbreviation or acronym, provide a full expansion of the term in plain text on first use, along with the &lt; abbr &gt; to mark up the abbreviation.
+                     This informs the user what the abbreviation or acronym means.</td>
+                <td> &lt;p &gt;Using&lt;abbr&gt;HTML&lt;/abbr&gt; is fun and easy!&lt;/p&gt; </td>
+                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/abbr#examples" target="_blank">Más informacion</a></td> 
+            </tr>
+        </tbody>
+
+        <tbody>
+            <tr>
+                <td> &lt; address &gt;: The Contact Address element </td>
+                <td> The &lt;address&gt; HTML element indicates that the enclosed HTML provides contact information for a person or people, or for an organization.</td>
+                <td> 
+                    &lt;p>Contact the author of this page:&lt;/p&gt;
+
+                    &lt;address&gt;
+                    &lt;a href="mailto:jim@rock.com"&gt;jim@rock.com&lt;/a&gt;<br />
+                    &lt;a href="tel:+13115552368"&gt;(311) 555-2368&lt;/a&gt;
+                    &lt;/address&gt;
+
+                    <p>Contact the author of this page:</p>
+
+                    <address>
+                      <a href="mailto:jim@rock.com">jim@rock.com</a><br />
+                      <a href="tel:+13115552368">(311) 555-2368</a>
+                    </address>
+
+            
+
+                    
+                </td>
+
+                <td><a href="" target="_blank">Más informacion</a></td> 
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td> &lt; area &gt;: The Image Map Area element </td>
+                <td> The &lt;area&gt; element defines an area inside an image map that has predefined clickable areas. An image map allows geometric areas on an image to be associated with hypertext links.</td>
+                <td> 
+                    &lt;map name="primary"&gt;<br>
+                        &lt;area<br>
+                          shape="circle"<br>
+                          coords="75,75,75"<br>
+                          href="left.html"<br>
+                          alt="Click to go Left" /&gt; <br>
+                          &lt;area <br>
+                          shape="circle" <br>
+                          coords="275,75,75" <br>
+                          href="right.html" <br>
+                          alt="Click to go Right" /&gt; <br>
+                          &lt;/map&gt; <br>
+                          &lt;img <br>
+                        usemap="#primary" <br>
+                        src="https://via.placeholder.com/350x150" <br>
+                        alt="350 x 150 pic" /&gt; <br>
+                </td>
+
+                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area#examples" target="_blank">Más informacion</a></td> 
+            </tr>
+
+            <tr>
+                <td>&lt;iframe&gt;</td>
+                <td>El elemento &lt;iframe&gt; se utiliza para incrustar contenido externo, como páginas web, documentos PDF o
+                  videos, dentro de una página web. Permite crear una ventana incrustada dentro de la página principal y mostrar
+                  contenido de otro origen.</td>
+                <td>  
+                    &lt;iframe <br>
+                       id="inlineFrameExample" <br>
+                       title="Inline Frame Example" <br>
+                       width="300" <br>
+                       height="200" <br>
+                       src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik" <br>
+                    &gt; <br>
+                    &lt;/iframe&gt; <br>
+
+                    <iframe
+                       id="inlineFrameExample"
+                       title="Inline Frame Example"
+                       width="300"
+                       height="200"
+                       src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik"
+                    >
+                    </iframe>
+                </td>
+                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe" target="_blank">Más informacion</a>
+                </td>
+            </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td>&lt;audio&gt;</td>
+                <td>El elemento &lt;audio&gt; se utiliza para incrustar archivos de audio en una página web. Puede reproducir
+                  archivos de audio como MP3, Ogg, WAV y más, proporcionando controles de reproducción para los usuarios.</td>
+                <td>
+                    &lt;figure&gt;  <br>
+                    &lt;figcaption&gt;Listen to the T-Rex:&lt;/figcaption&gt; <br>
+                    &lt;audio controls src="/media/cc0-audio/t-rex-roar.mp3"&gt; <br>
+                    &lt;a href="/media/cc0-audio/t-rex-roar.mp3"&gt; Download audio &lt;/a&gt; <br>
+                    &lt;/audio&gt; <br>
+                    &lt;/figure&gt; <br>
+
+                    <figure>
+                        <figcaption>Listen to the T-Rex:</figcaption>
+                        <audio controls src="/media/cc0-audio/t-rex-roar.mp3">
+                          <a href="/media/cc0-audio/t-rex-roar.mp3"> Download audio </a>
+                        </audio>
+                    </figure>
+
+                </td>
+                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio" target="_blank">Más informacion</a>
+                </td>
+              </tr>
+        
+              <tr>
+                <td>&lt;video&gt;</td>
+                <td>El elemento &lt;video&gt; se utiliza para incrustar archivos de video en una página web. Puede reproducir
+                  archivos de video en varios formatos, como MP4, WebM, y otros, y proporcionar controles de reproducción para
+                  los usuarios.</td>
+                <td>
+
+                    &lt;video controls width="250"&gt;  <br>
+                    &lt;source src="/media/cc0-videos/flower.webm" type="video/webm" /&gt; <br>
+                      
+                    &lt;source src="/media/cc0-videos/flower.mp4" type="video/mp4" /&gt; <br>
+                      
+                        Download the <br>
+                        &lt;a href="/media/cc0-videos/flower.webm">WEBM&lt;/a&gt; <br>
+                        or
+                        &lt;a href="/media/cc0-videos/flower.mp4">MP4&lt;/a&gt; <br>
+                        video. <br>
+                    &lt;/video&gt; <br>
+
+                    <video controls width="250">
+                        <source src="/media/cc0-videos/flower.webm" type="video/webm" />
+                      
+                        <source src="/media/cc0-videos/flower.mp4" type="video/mp4" />
+                      
+                        Download the
+                        <a href="/media/cc0-videos/flower.webm">WEBM</a>
+                        or
+                        <a href="/media/cc0-videos/flower.mp4">MP4</a>
+                        video.
+                      </video>
+                      
+
+                </td>
+                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video" target="_blank">Más informacion</a>
+                </td>
+              </tr>
+        
+              <tr>
+                <td>&lt;canvas&gt;</td>
+                <td>El elemento &lt;canvas&gt; se utiliza para dibujar gráficos, imágenes y animaciones en una página web
+                  utilizando JavaScript. Proporciona un lienzo en blanco donde puedes realizar dibujos y manipulaciones
+                  gráficas.</td>
+                <td>
+                    &lt;canvas width="120" height="120"&gt; <br>
+                        An alternative text describing what your canvas displays. <br>
+                    &lt;/canvas&gt; <br>
+
+                </td>
+                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas" target="_blank">Más informacion</a>
+                </td>
+              </tr>
+        
+              <tr>
+                <td>&lt;select&gt;</td>
+                <td>El elemento &lt;select&gt; se utiliza para crear listas desplegables en formularios web. Permite a los
+                  usuarios seleccionar una opción de una lista de opciones predefinidas.</td>
+                <td>
+                    <select name="choice">
+                        <option value="first">First Value</option>
+                        <option value="second" selected>Second Value</option>
+                        <option value="third">Third Value</option>
+                    </select>
+
+
+
+                </td>
+                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select" target="_blank">Más informacion</a>
+                </td>
+              </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+
+
+    </table>
+</body>
+</html>
